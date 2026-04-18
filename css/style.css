@@ -42,6 +42,11 @@ span {
     background-color: white;
 }
 
+.navbar-nav .nav-item .nav-link.active{
+    color: #7C3AED !important;
+    transition: all .3s !important;
+}
+
 .properties {
     position: relative;
 }
