@@ -1,0 +1,243 @@
+@media (max-width: 576px) {
+    .navbar-nav .nav-item:hover {
+        background-color: #F5F3FF;
+        transition: all .5s;
+    }
+
+    .navbar-nav .nav-item a {
+        transition: all .5s;
+    }
+
+    .navbar-nav .nav-item:hover a {
+        color: var(--prime-color);
+    }
+
+    .stats {
+        width: 100%;
+    }
+
+    .bg-white {
+        width: 90%;
+    }
+
+    .hero>h1 {
+        font-size: 3rem;
+        line-height: 3.75rem;
+
+    }
+
+    .hero>p {
+        font-size: 1rem;
+        line-height: 2.0625rem;
+
+    }
+
+    .villa-img {
+        width: 20%;
+    }
+
+    .apartment-img {
+        width: 20%;
+    }
+
+    .tab-right {
+        height: 300px;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .slider p{
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 600;
+    }
+
+    .carousel-item .item{
+        width: 95%;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .navbar-nav .nav-item:hover {
+        background-color: #F5F3FF;
+        transition: all .5s;
+    }
+
+    .navbar-nav .nav-item a {
+        transition: all .5s;
+        padding-inline: 10px;
+    }
+
+    .navbar-nav .nav-item:hover a {
+        color: var(--prime-color);
+    }
+
+    .stats {
+        width: 100%;
+    }
+
+    .bg-white {
+        width: 90%;
+    }
+
+    .hero>h1 {
+        font-size: 3rem;
+        line-height: 3.75rem;
+
+    }
+
+    .hero>p {
+        font-size: 1rem;
+        line-height: 2.0625rem;
+
+    }
+
+    .villa-img {
+        width: 15%;
+    }
+
+    .apartment-img {
+        width: 15%;
+    }
+
+    .tab-right {
+        height: 300px;
+    }
+
+    .carousel-item .item{
+        width: 95%;
+    }
+
+}
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {
+
+    .navbar-nav .nav-item:hover {
+        background-color: white;
+        transition: all .5s;
+    }
+
+    .navbar-nav .nav-item {
+        margin-inline: 8px;
+        position: relative;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+
+    }
+
+    .navbar-nav .nav-item::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: var(--prime-color);
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        transition: all .2s ease;
+    }
+
+    .navbar-nav .nav-item:hover::after {
+        width: 80%;
+    }
+
+    .bg-white {
+        width: 55%;
+    }
+
+    .stats {
+        width: 50%;
+    }
+
+    .hero>h1 {
+        font-size: 3.75rem;
+        line-height: 4.6875rem;
+
+    }
+
+    .hero>p {
+        font-size: 1rem;
+        line-height: 2.0625rem;
+
+    }
+
+    .villa-img {
+        width: 30%;
+    }
+
+    .apartment-img {
+        width: 30%;
+    }
+
+    .tab-right {
+        height: 100%;
+    }
+
+    .Contact::before {
+        content: "";
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background-color: #F5F3FE;
+        position: absolute;
+        top: -5%;
+        right: -7%;
+
+
+    }
+
+    .Contact::after {
+        content: "";
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        border: 4px solid #DDD6FF;
+        position: absolute;
+        top: 6%;
+        right: 5%;
+    }
+
+    .circle-bottom::before {
+        content: "";
+        height: 320px;
+        width: 320px;
+        border-radius: 50%;
+        background-color: #F8F3FF;
+        position: absolute;
+        bottom: -9%;
+        left: -7%;
+
+    }
+
+    .circle-bottom::after {
+        content: "";
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border: 4px solid #E9D4FF;
+        position: absolute;
+        bottom: 7%;
+        left: 8%;
+    }
+
+    .accordion {
+        width: 75%;
+    }
+
+    .carousel-item .item{
+        width: 75%;
+    }
+
+}
+
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
